@@ -40,7 +40,7 @@
   "include": [
     "src",
     ".next/types/**/*.ts",
-    "content-collections.ts"
+    "config/*.js"
   ],
   "exclude": [
     "node_modules",
