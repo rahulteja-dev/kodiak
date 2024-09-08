@@ -31,6 +31,13 @@
 		"noImplicitAny": false, // TODO: Resolve errors when setting this to 'true'
 		"useUnknownInCatchVariables": false // TODO: Resolve errors when setting this to 'true'
 	},
-	"include": ["src", ".next/types/**/*.ts", "config/*.js", ".prettierrc.cjs", ".commitlintrc.json"],
+	"include": [
+		"src",
+		".next/types/**/*.ts",
+		"config/*.js",
+		".prettierrc.cjs",
+		".commitlintrc.json",
+		"playwright.config.ts"
+	],
 	"exclude": ["node_modules", "build", "dist", ".next", ".expo"]
 }

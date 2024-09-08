@@ -20,7 +20,6 @@ module.exports = {
 	printWidth: 100,
 	endOfLine: "lf",
 	tabWidth: 2,
-	tailwindFunctions: ["cn", "cva"],
 	proseWrap: "always",
 	importOrder: [
 		"<TYPES>",

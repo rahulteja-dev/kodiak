@@ -23,6 +23,7 @@
 		"@eslint/js": "^9.10.0",
 		"@ianvs/prettier-plugin-sort-imports": "^4.3.1",
 		"@next/eslint-plugin-next": "^14.2.8",
+		"@playwright/test": "^1.47.0",
 		"@types/node": "^20",
 		"@types/prettier": "^3.0.0",
 		"@types/react": "^18",
@@ -38,5 +39,9 @@
 		"pretty-quick": "^4.0.0",
 		"typescript": "^5",
 		"typescript-eslint": "^8.4.0"
-	}
+	},
+	"main": "index.js",
+	"repository": "git@personal:rahulteja-dev/kodiak.git",
+	"author": "A Rahul Teja <amilineni.teja@lenskart.in>",
+	"license": "MIT"
 }
