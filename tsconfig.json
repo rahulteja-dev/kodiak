@@ -1,26 +1,43 @@
 {
-  "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
-    "paths": {
-      "components/*": ["./src/*"]
-    }
-  },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"target": "ES2022",
+		"allowJs": true,
+		"resolveJsonModule": true,
+		"moduleDetection": "force",
+		"isolatedModules": true,
+		"incremental": true,
+		"disableSourceOfProjectReferenceRedirect": true,
+		"strict": true,
+		"noUncheckedIndexedAccess": true,
+		"checkJs": true,
+		"moduleResolution": "Bundler",
+		"noEmit": true,
+		"lib": ["es2022", "dom", "dom.iterable"],
+		"jsx": "preserve",
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"]
+		},
+		"plugins": [
+			{
+				"name": "next"
+			}
+		],
+		"tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json",
+		"module": "esnext",
+		"noImplicitAny": false, // TODO: Resolve errors when setting this to 'true'
+		"useUnknownInCatchVariables": false // TODO: Resolve errors when setting this to 'true'
+	},
+	"include": [
+		"src",
+		".next/types/**/*.ts",
+		"config/*.js",
+		".prettierrc.cjs",
+		".commitlintrc.json",
+		"playwright.config.ts"
+	],
+	"exclude": ["node_modules", "build", "dist", ".next", ".expo"]
 }
