@@ -1,3 +1,4 @@
+import GradientChip from "./gradientchip";
 import NavItem from "./navitem";
 
 const Header = () => {
@@ -10,7 +11,8 @@ const Header = () => {
 				</h1>
 				<div className="pl-14">
 					<h2 className="mb-3 text-2xl text-slate-50">Senior Frontend Engineer </h2>
-					<h3 className="custom-main-text">
+					<GradientChip label="9+ years of experience" />
+					<h3 className="mt-3 custom-main-text">
 						I design pixel-perfect, seamlessly smooth user experiences using React, Next.js &
 						other's. I love what I do!!
 					</h3>
