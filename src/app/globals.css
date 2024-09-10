@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+	:root {
+		--background: #0e0e0e;
+		--foreground: #fb8b24;
+		--primary: #faf0e6;
+		--gradientwhite: #e9dcc9;
+	}
+
+	.custom-gradient-text {
+		@apply text-transparent bg-clip-text bg-gradient-to-r from-foreground to-gradientwhite;
+	}
+
+	.custom-main-text {
+		@apply text-lg max-w-sm leading-normal text-slate-400;
+	}
+}
+
 /* :root {
 	--background: #ffffff;
 	--foreground: #171717;
