@@ -1,10 +1,11 @@
+import About from "./about";
 import Section from "./section";
 
 const Main = () => {
 	return (
 		<main id="content" className="pt-24 lg:w-1/2 lg:py-20">
 			<Section id="about" title="About" ariaLabel="About Me">
-				About Section
+				<About />
 			</Section>
 			<Section id="experience" title="Experience" ariaLabel="Work Experience">
 				Experience Section

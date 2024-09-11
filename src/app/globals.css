@@ -17,6 +17,10 @@
 	.custom-main-text {
 		@apply text-lg max-w-sm leading-normal text-slate-400;
 	}
+
+	.custom-bento-text {
+		@apply text-sm text-slate-50 mt-1;
+	}
 }
 
 /* :root {
