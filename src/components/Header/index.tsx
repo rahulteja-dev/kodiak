@@ -1,5 +1,4 @@
 import constants from "@/helpers/constants";
-import GradientChip from "@/UI/gradient-chip";
 
 import NavItem from "./navitem";
 
@@ -13,10 +12,9 @@ const Header = () => {
 				</h1>
 				<div className="pl-14">
 					<h2 className="mb-3 text-2xl text-slate-50">{constants.TITLE}</h2>
-					<GradientChip label={constants.EXPERIENCE} />
 					<h3 className="mt-3 custom-main-text">{constants.DESCRIPTION}</h3>
 					<nav className="hidden lg:block">
-						<ul className="mt-16 w-max">
+						<ul className="mt-14 w-max">
 							{constants.NAV_ITEMS.map((item, _) => {
 								return <NavItem key={item.href} label={item.label} href={item.href} />;
 							})}
