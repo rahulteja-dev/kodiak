@@ -27,7 +27,7 @@ const constants = {
 			href: "blog",
 		},
 		{
-			label: "Contact",
+			label: "Get in touch",
 			href: "contact",
 		},
 	],

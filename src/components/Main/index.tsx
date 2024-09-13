@@ -1,4 +1,5 @@
 import About from "./about";
+import Contact from "./contact";
 import Section from "./section";
 
 const Main = () => {
@@ -20,7 +21,7 @@ const Main = () => {
 				Blogs Section
 			</Section>
 			<Section id="contact" title="Contact" ariaLabel="Contact Me">
-				Contact Section
+				<Contact />
 			</Section>
 		</main>
 	);
