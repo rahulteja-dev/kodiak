@@ -28,7 +28,7 @@ const Contact = () => {
 					<div className="flex justify-center mt-6">
 						<BadgePing />
 					</div>
-					<div className="text-xl ml-2 mt-3 text-slate-50">
+					<div className="text-lg ml-2 mt-3 text-slate-50">
 						{constants.PROJECT_BADGE_PING}
 						<span className="text-2xl">👨🏻‍💻</span>
 					</div>
