@@ -11,6 +11,10 @@
 		--buttonbg: #f57722;
 	}
 
+	body {
+		@apply bg-[url('/assets/grid.svg')] bg-no-repeat bg-cover bg-top bg-fixed;
+	}
+
 	.active .nav-line {
 		@apply w-20 bg-slate-50;
 	}
