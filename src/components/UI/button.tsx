@@ -1,6 +1,4 @@
-"use client";
-
-export const Button = ({ label }: { label: string }) => {
+const Button = ({ label }: { label: string }) => {
 	return (
 		<button
 			type="button"
@@ -10,3 +8,5 @@ export const Button = ({ label }: { label: string }) => {
 		</button>
 	);
 };
+
+export default Button;

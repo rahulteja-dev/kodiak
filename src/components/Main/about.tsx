@@ -1,5 +1,7 @@
 import BentoItem from "@/UI/bento";
 
+import Button from "../UI/button";
+
 const About = () => {
 	return (
 		<div>
@@ -37,8 +39,19 @@ const About = () => {
 				<BentoItem className="col-span-2">
 					<div>Tech Enthusiast</div>
 				</BentoItem>
-				<BentoItem className="col-span-3">
-					<div>Call To Action</div>
+				<BentoItem className="col-span-2">
+					<div className="text-2xl custom-gradient-text">
+						Got a project in mind?? <span className="text-4xl">👋🏻</span>{" "}
+					</div>
+					<p className="mt-2 text-xl text-slate-50">
+						let's link up and talk! <span className="text-2xl">💬</span>
+					</p>
+					<a href="#contact_me">
+						<Button label="Get in touch" />
+					</a>
+				</BentoItem>
+				<BentoItem className="col-span-1">
+					<div className="text-2xl custom-gradient-text">Hello</div>
 				</BentoItem>
 			</div>
 		</div>
