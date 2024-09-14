@@ -31,6 +31,12 @@ const constants = {
 			href: "contact",
 		},
 	],
+	PROJECT: "Have a project in mind? Let's get to work.👋🏻📫",
+	PROJECT_DESCRIPTION: "You know about me, Let's talk about the project.",
+	PROJECT_BUTTON: "Shoot me an email",
+	PROJECT_BUTTON_SECONDARY: "Let's catch up",
+	PROJECT_BADGE_PING: "I'm currently avaliable for work.",
+	OR: "Or",
 };
 
 export default constants;

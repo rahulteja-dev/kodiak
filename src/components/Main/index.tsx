@@ -1,3 +1,5 @@
+import constants from "@/helpers/constants";
+
 import About from "./about";
 import Contact from "./contact";
 import Section from "./section";
@@ -20,7 +22,7 @@ const Main = () => {
 			<Section id="blog" title="Blogs" ariaLabel="Blogs I've written">
 				Blogs Section
 			</Section>
-			<Section id="contact" title="Contact" ariaLabel="Contact Me">
+			<Section id="contact" title={constants.PROJECT} ariaLabel="Contact Me">
 				<Contact />
 			</Section>
 		</main>
