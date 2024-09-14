@@ -13,15 +13,6 @@ const Main = () => {
 			<Section id="experience" title="Experience" ariaLabel="Work Experience">
 				Experience Section
 			</Section>
-			<Section id="services" title="Services" ariaLabel="Services">
-				Services Section
-			</Section>
-			<Section id="projects" title="Projects" ariaLabel="Worked Projects">
-				Projects Section
-			</Section>
-			<Section id="blog" title="Blogs" ariaLabel="Blogs I've written">
-				Blogs Section
-			</Section>
 			<Section id="contact_me" title={constants.PROJECT} ariaLabel="Contact Me">
 				<Contact />
 			</Section>
