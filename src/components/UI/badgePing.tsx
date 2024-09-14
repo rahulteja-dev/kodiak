@@ -1,4 +1,4 @@
-const BadgePing = ({ color }: { color: string }) => {
+const BadgePing = ({ color = "slate-50" }: { color?: string }) => {
 	return (
 		<span className="relative flex h-3 w-3">
 			<span
