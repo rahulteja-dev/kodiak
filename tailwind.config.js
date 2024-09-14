@@ -13,6 +13,7 @@ export default {
 				heading: ["var(--font-heading)", ...fontFamily.sans],
 			},
 			colors: {
+				buttonbg: "var(--buttonbg)",
 				background: "var(--background)",
 				foreground: "var(--foreground)",
 				gradientwhite: "var(--gradientwhite)",
