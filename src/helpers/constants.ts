@@ -13,7 +13,7 @@ const constants = {
 		},
 		{
 			label: "Experience",
-			href: "experience",
+			href: "experience_me",
 		},
 		{
 			label: "Get in touch",
