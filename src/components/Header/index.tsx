@@ -17,7 +17,7 @@ const Header = () => {
 					}
 				});
 			},
-			{ threshold: 0.5 },
+			{ threshold: 0.3 },
 		);
 
 		document.querySelectorAll("section[id]").forEach((section) => {
