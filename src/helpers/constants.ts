@@ -26,7 +26,7 @@ const constants = {
 	PROJECT_BUTTON_SECONDARY: "Let's catch up",
 	PROJECT_BADGE_PING: "I'm currently avaliable for work. ",
 	OR: "/",
-	TECHNICAL_LEADERSHIP: "Technical Leadership",
+	TECHNICAL_LEADERSHIP: "Leadership",
 	TECHNICAL_LEADERSHIP_DESCRIPTION:
 		"Oversaw multiple frontend projects, successfully delivering a high volume of results within tight deadlines.",
 	CONTACT_ME: "Got a project in mind??",
