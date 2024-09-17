@@ -39,12 +39,15 @@ const About = () => {
 						<Button label={constants.CONTACT_ME_BUTTON} />
 					</a>
 				</Card>
-				<Card className="md:col-span-1 md:row-span-1 group">
+				<Card className="md:col-span-2 md:row-span-1 group">
 					<div className="text-2xl custom-gradient-text">Problem Solving</div>
 					<p className="custom-bento-text text-md mt-4">
 						Excel at identifying and resolving complex UI and functionality issues, ensuring optimal
 						UI/UX across various devices and browsers.
 					</p>
+				</Card>
+				<Card className="md:col-span-1 md:row-span-1 group">
+					<div className="text-2xl custom-gradient-text">Team Player</div>
 				</Card>
 				<Card className="md:col-span-1 md:row-span-1 group">
 					<div className="text-2xl custom-gradient-text">Detail Oriented</div>
@@ -53,12 +56,10 @@ const About = () => {
 						enhance user engagement and satisfaction.
 					</p>
 				</Card>
-				<Card className="md:col-span-2 md:row-span-1 group">
-					<div className="text-2xl custom-gradient-text">Team Player and Collaboration</div>
-				</Card>
 				<Card className="md:col-span-1 md:row-span-1 group">
 					<div className="text-2xl custom-gradient-text">Tech Enthusiast</div>
 				</Card>
+
 				{/* <BentoItem
 					title="Investment Strategies"
 					description="Tailored investment strategies to maximize your returns."
