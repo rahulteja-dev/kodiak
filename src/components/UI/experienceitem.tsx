@@ -19,7 +19,7 @@ const ExperienceItem = ({ item }: { item: ExperienceItemProps }) => {
 				</p>
 			</div>
 			<h4 className="mb-3 text-lg text-slate-50 ">{item.company}</h4>
-			<p className="mt-4 text-sm max-w-sm leading-normal text-slate-400 mb-3">{item.description}</p>
+			<p className="mt-4 text-sm max-w-sm leading-normal text-slate-400 mb-4">{item.description}</p>
 			<div className="flex flex-wrap gap-2">
 				{item.technologies.map((tech, techIndex) => (
 					<span
