@@ -3,7 +3,7 @@ const constants = {
 	NAME: "Rahul Teja",
 	TITLE: "Senior Frontend Engineer",
 	EXPERIENCE: "Experience",
-	EXPERIENCE_DESCRIPTION: "Years of Experience in Frontend Development",
+	EXPERIENCE_DESCRIPTION: "Years of Wrangling with Frontend Code!!",
 	DESCRIPTION:
 		"I design pixel-perfect, seamlessly smooth user experiences using React, Next.js & other's. I love what I do!!",
 	NAV_ITEMS: [
@@ -32,6 +32,9 @@ const constants = {
 	CONTACT_ME: "Got a project in mind??",
 	CONTACT_ME_DESCRIPTION: "let's link up and talk! ",
 	CONTACT_ME_BUTTON: "Get in touch",
+	SHARP_EYE: "Sharp-eyed",
+	SHARP_EYE_DESC:
+		"My keen eye for precision ensures flawless, user-friendly interfaces that boost engagement and satisfaction",
 };
 
 export default constants;

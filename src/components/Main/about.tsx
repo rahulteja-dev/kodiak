@@ -20,13 +20,17 @@ const About = () => {
 					</div>
 				</Card>
 				<Card className="md:col-span-1 md:row-span-1 group">
-					<div className="text-2xl custom-gradient-text">{constants.TECHNICAL_LEADERSHIP}</div>
-					<p className="custom-bento-text text-md mt-4">
-						{constants.TECHNICAL_LEADERSHIP_DESCRIPTION}
-					</p>
+					<div className="text-2xl custom-gradient-text">{constants.SHARP_EYE}</div>
+					<p className="custom-bento-text text-md mt-4">{constants.SHARP_EYE_DESC}.</p>
 				</Card>
-				<Card className="md:col-span-1 md:row-span-2 group">
+				<Card className="md:col-span-3 md:row-span-1 group" width="max-w-xl">
 					<div className="text-2xl custom-gradient-text">Skills</div>
+				</Card>
+				<Card className="md:col-span-1 md:row-span-1 group">
+					<div className="text-2xl custom-gradient-text">Team Player</div>
+					<p className="custom-bento-text text-md mt-4">
+						Worked closely with cross-functional teams to design, develop, and deploy applications.
+					</p>
 				</Card>
 				<Card className="md:col-span-2 md:row-span-1 group" width="max-w-md">
 					<div className="text-2xl custom-gradient-text">
@@ -47,67 +51,11 @@ const About = () => {
 					</p>
 				</Card>
 				<Card className="md:col-span-1 md:row-span-1 group">
-					<div className="text-2xl custom-gradient-text">Team Player</div>
-				</Card>
-				<Card className="md:col-span-1 md:row-span-1 group">
-					<div className="text-2xl custom-gradient-text">Detail Oriented</div>
+					<div className="text-2xl custom-gradient-text">{constants.TECHNICAL_LEADERSHIP}</div>
 					<p className="custom-bento-text text-md mt-4">
-						My meticulous attention to detail ensures pixel-perfect, intuitive interfaces that
-						enhance user engagement and satisfaction.
+						{constants.TECHNICAL_LEADERSHIP_DESCRIPTION}
 					</p>
 				</Card>
-				<Card className="md:col-span-1 md:row-span-1 group">
-					<div className="text-2xl custom-gradient-text">Tech Enthusiast</div>
-				</Card>
-
-				{/* <BentoItem
-					title="Investment Strategies"
-					description="Tailored investment strategies to maximize your returns."
-					className="md:row-span-2 group"
-					extraContent={
-						<div className="mt-4 space-y-2">
-							<p className="text-sm text-gray-600">
-								Our expert team develops personalized investment plans based on your:
-							</p>
-							<ul className="list-disc list-inside space-y-1 text-sm text-gray-600">
-								<li>Risk tolerance</li>
-								<li>Financial goals</li>
-								<li>Time horizon</li>
-							</ul>
-						</div>
-					}
-				/>
-				<BentoItem
-					title="Currency Exchange"
-					description="Competitive rates for all your currency exchange needs."
-					className="group"
-				/>
-				<BentoItem
-					title="Portfolio Management"
-					description="Expert portfolio management to help you achieve your financial goals."
-					className="md:col-span-2 group"
-				/>
-				<BentoItem
-					title="Market Insights"
-					description="Stay ahead with our cutting-edge market insights and analysis."
-					className="md:row-span-2 group"
-					extraContent={
-						<div className="mt-4 space-y-2">
-							<p className="text-sm text-gray-600">Our insights cover:</p>
-							<ul className="list-disc list-inside space-y-1 text-sm text-gray-600">
-								<li>Stock market trends</li>
-								<li>Economic indicators</li>
-								<li>Industry-specific analysis</li>
-								<li>Global financial news</li>
-							</ul>
-						</div>
-					}
-				/>
-				<BentoItem
-					title="Wealth Management"
-					description="Comprehensive wealth management services for high-net-worth individuals."
-					className="group"
-				/> */}
 			</div>
 		</div>
 	);
