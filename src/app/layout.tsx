@@ -5,6 +5,8 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { cn } from "@/helpers/utils";
 
+import { TailwindIndicator } from "@/components/UI/tailwind-indicator";
+
 export const metadata: Metadata = {
 	title: "Rahul Teja A",
 	description: "Freelance Frontend Developer",
@@ -28,6 +30,7 @@ export default function RootLayout({
 				)}
 			>
 				{children}
+				<TailwindIndicator />
 			</body>
 		</html>
 	);
