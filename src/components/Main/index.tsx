@@ -1,5 +1,5 @@
 import constants from "@/helpers/constants";
-import experienceData from "@/helpers/experience";
+import experienceData from "@/helpers/experienceData";
 
 import ExperienceTimeline from "../UI/timeline";
 import About from "./about";

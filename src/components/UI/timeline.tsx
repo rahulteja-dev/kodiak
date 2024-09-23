@@ -1,21 +1,12 @@
 import { Briefcase } from "lucide-react";
 
+import type { ExperienceItemProps } from "./experienceitem";
+
 import Card from "./card";
 import ExperienceCard from "./experienceitem";
 
-export interface TimelineItem {
-	id: number;
-	startDate: string;
-	endDate: string;
-	title: string;
-	company: string;
-	description: string;
-	technologies: string[];
-	icon: "briefcase";
-}
-
 interface ExperienceTimelineProps {
-	items: TimelineItem[];
+	items: ExperienceItemProps[];
 }
 
 export default function ExperienceTimeline({ items }: ExperienceTimelineProps) {

@@ -35,6 +35,7 @@ const constants = {
 	SHARP_EYE: "Sharp-eyed",
 	SHARP_EYE_DESC:
 		"My keen eye for precision ensures flawless, user-friendly interfaces that boost engagement and satisfaction",
+	SKILLS: "Skills",
 };
 
 export default constants;
