@@ -1,7 +1,14 @@
 import constants from "@/helpers/constants";
 import Card from "@/UI/card";
 
+import HTMLLogo from "../svg/htmllogo";
+import JavaScriptLogo from "../svg/javascriptlogo";
+import ReactLogo from "../svg/reactlogo";
+import SCSSLogo from "../svg/scsslogo";
+import TailwindCSSLogo from "../svg/tailwindlogo";
+import TypeScriptLogo from "../svg/tslogo";
 import Button from "../UI/button";
+import Transition from "../UI/transition";
 
 const About = () => {
 	return (
@@ -25,6 +32,26 @@ const About = () => {
 				</Card>
 				<Card className="md:col-span-3 md:row-span-1 group" width="max-w-xl">
 					<div className="text-2xl custom-gradient-text">Skills</div>
+					<div className="mt-5 flex space-x-7">
+						<Transition duration={500} scale={125}>
+							<HTMLLogo width={60} height={60} />
+						</Transition>
+						<Transition duration={500} scale={125}>
+							<JavaScriptLogo width={60} height={60} />
+						</Transition>
+						<Transition duration={500} scale={125}>
+							<TypeScriptLogo width={60} height={60} />
+						</Transition>
+						<Transition duration={500} scale={125}>
+							<ReactLogo width={60} height={60} />
+						</Transition>
+						<Transition duration={500} scale={125}>
+							<SCSSLogo width={60} height={60} />
+						</Transition>
+						<Transition duration={500} scale={125}>
+							<TailwindCSSLogo width={60} height={60} />
+						</Transition>
+					</div>
 				</Card>
 				<Card className="md:col-span-1 md:row-span-1 group">
 					<div className="text-2xl custom-gradient-text">Team Player</div>

@@ -5,7 +5,7 @@ import Button from "../UI/button";
 
 const Contact = () => {
 	return (
-		<div>
+		<div className="ml-20">
 			<div className="text-4xl leading-normal text-slate-50 max-w-md">{constants.PROJECT}</div>
 			<div className="text-lg leading-normal text-slate-400 mt-2 max-w-md">
 				{constants.PROJECT_DESCRIPTION}
