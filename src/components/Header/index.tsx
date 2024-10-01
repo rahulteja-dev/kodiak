@@ -31,7 +31,7 @@ const Header = () => {
 		<header className="text-foreground lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-20">
 			<div>
 				<h3 className="custom-text px-14 absolute font-heading">{constants.WELCOME_TEXT}</h3>
-				<h1 className="custom-gradient-text text-6xl font-extrabold leading-11 font-heading tracking-wider">
+				<h1 className="custom-gradient-text text-6xl font-extrabold leading-11 font-heading">
 					<a href="/">{constants.NAME}</a>
 				</h1>
 				<div className="px-5">
