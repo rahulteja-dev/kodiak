@@ -7,7 +7,7 @@ const Contact = () => {
 	return (
 		<div className="mx-5">
 			{/* <div className="text-3xl leading-normal text-slate-50 max-w-md">{constants.PROJECT}</div> */}
-			<div className="text-lg leading-normal text-slate-400 mt-2 max-w-md">
+			<div className="custom-text leading-normal mt-2 max-w-md">
 				{constants.PROJECT_DESCRIPTION}
 			</div>
 			<div>
@@ -28,7 +28,7 @@ const Contact = () => {
 					<div className="flex justify-center mt-6 ml-2">
 						<BadgePing />
 					</div>
-					<div className="text-lg ml-3 mt-3 text-slate-50">
+					<div className="custom-text ml-3 mt-3 text-slate-50">
 						{constants.PROJECT_BADGE_PING}
 						<span className="text-2xl">👨🏻‍💻</span>
 					</div>

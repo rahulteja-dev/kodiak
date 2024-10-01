@@ -1,14 +1,14 @@
 import constants from "@/helpers/constants";
 import experienceData from "@/helpers/experienceData";
 
+import Section from "../UI/section";
 import ExperienceTimeline from "../UI/timeline";
 import About from "./about";
 import Contact from "./contact";
-import Section from "./section";
 
 const Main = () => {
 	return (
-		<main id="content" className="pt-24 lg:w-1/2 lg:py-20">
+		<main id="content" className="pt-14 lg:w-1/2 lg:py-20">
 			<Section id="about" title="About" ariaLabel="About Me">
 				<About />
 			</Section>
