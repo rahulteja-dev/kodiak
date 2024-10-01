@@ -8,7 +8,7 @@ import Contact from "./contact";
 
 const Main = () => {
 	return (
-		<main id="content" className="pt-14 lg:w-1/2 lg:py-20">
+		<main id="content" className="pt-10 lg:w-1/2 lg:py-20">
 			<Section id="about" title="About" ariaLabel="About Me">
 				<About />
 			</Section>

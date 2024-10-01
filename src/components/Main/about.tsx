@@ -13,9 +13,36 @@ import Transition from "../UI/transition";
 
 const About = () => {
 	return (
-		<div className="container mx-auto px-4">
-			<div>
-				About Me Hello I am rahul teja Amilineni working in lenskart as senior software developer
+		<div className="container mx-auto px-5">
+			<div className="custom-text mb-10">
+				<p className="mb-4">
+					Right now, I'm spearheading the development of{" "}
+					<span className="font-bold text-slate-50">micro frontend architecture</span> at{" "}
+					<a
+						className="font-bold text-slate-50 hover:text-buttonbg focus-visible:text-buttonbg"
+						href="https://www.lenskart.com"
+						target="_blank"
+						rel="noreferrer noopener"
+						aria-label="Lenskart.com"
+					>
+						Lenskart.com
+					</a>
+					. I love creating software that's both{" "}
+					<span className="font-bold text-slate-50">pretty and smart</span> - hitting that sweet
+					spot where{" "}
+					<span className="font-bold text-slate-50">great design meets solid engineering.</span>It's
+					all about making things look good while ensuring they're built on rock-solid architecture.
+				</p>
+				<p className="mb-4">
+					I’m always tweaking those web vitals to make our{" "}
+					<span className="font-bold text-slate-50">apps super snappy</span>.When I'm not at work,
+					I'm geeking out over the latest frontend tech, especially anything that makes apps faster
+					and more stable.
+				</p>
+				<p className="mb-4">
+					When I'm not on the computer, I'm gaming on my PS5, chilling with a book, or hanging with
+					my crew.
+				</p>
 			</div>
 			<div className="grid grid-cols-2 md:grid-cols-3 md:grid-rows-[10] gap-4 auto-rows-[minmax(200px,auto)]">
 				<Card className="col-span-1 row-span-1 group" width="max-w-sm">
