@@ -28,7 +28,7 @@ const constants = {
 	OR: "/",
 	TECHNICAL_LEADERSHIP: "Leadership",
 	TECHNICAL_LEADERSHIP_DESCRIPTION:
-		"Oversaw multiple frontend projects, successfully delivering a high volume of results within tight deadlines.",
+		"Masterminded multiple frontend projects, delivering high-volume results on tight deadlines. Demonstrated exceptional ability to independently juggle tasks, consistently producing timely and precise outcomes across concurrent initiatives.",
 	CONTACT_ME: "Got a project in mind??",
 	CONTACT_ME_DESCRIPTION: "let's link up and talk! ",
 	CONTACT_ME_BUTTON: "Get in touch",
