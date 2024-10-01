@@ -30,13 +30,13 @@ const Header = () => {
 	return (
 		<header className="text-foreground lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-20">
 			<div>
-				<h3 className="custom-main-text px-14 absolute font-heading">{constants.WELCOME_TEXT}</h3>
-				<h1 className="custom-gradient-text text-6xl font-extrabold leading-14 font-heading">
+				<h3 className="custom-text px-14 absolute font-heading">{constants.WELCOME_TEXT}</h3>
+				<h1 className="custom-gradient-text text-6xl font-extrabold leading-11 font-heading tracking-wider">
 					<a href="/">{constants.NAME}</a>
 				</h1>
-				<div className="pl-10">
-					<h2 className="mb-3 text-2xl text-slate-50">{constants.TITLE}</h2>
-					<h3 className="mt-3 custom-main-text">{constants.DESCRIPTION}</h3>
+				<div className="px-5">
+					<h2 className="my-3 text-2xl text-slate-50">{constants.TITLE}</h2>
+					<h3 className="mt-3 custom-text">{constants.DESCRIPTION}</h3>
 					<nav className="hidden lg:block">
 						<ul className="mt-14 w-max">
 							{constants.NAV_ITEMS.map((item, _) => {

@@ -14,7 +14,7 @@ export default {
 		extend: {
 			lineHeight: {
 				10: "10rem",
-				14: "14rem",
+				11: "11rem",
 			},
 			fontFamily: {
 				inter: ["var(--font-inter)", ...fontFamily.sans],

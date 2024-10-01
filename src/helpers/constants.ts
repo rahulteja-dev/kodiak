@@ -3,6 +3,8 @@ const constants = {
 	NAME: "Rahul Teja",
 	TITLE: "Senior Frontend Engineer",
 	EXPERIENCE: "Experience",
+	NINE: "9",
+	PLUS: "+",
 	EXPERIENCE_DESCRIPTION: "Years of Wrangling with Frontend Code!!",
 	DESCRIPTION:
 		"I design pixel-perfect, seamlessly smooth user experiences using React, Next.js & other's. I love what I do!!",
@@ -36,6 +38,12 @@ const constants = {
 	SHARP_EYE_DESC:
 		"My keen eye for precision ensures flawless, user-friendly interfaces that boost engagement and satisfaction",
 	SKILLS: "Skills",
+	TEAM_PLAYER: "Team Player",
+	TEAM_PLAYER_DESC:
+		"Worked closely with cross-functional teams to design, develop, and deploy web applications.",
+	SNAG_SOLVER: "Snag Solver",
+	SNAG_SOLVER_DESC:
+		"Expert in identifying complex UI/UX issues and optimizing functionality across multiple devices.",
 };
 
 export default constants;
