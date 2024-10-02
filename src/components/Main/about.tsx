@@ -17,7 +17,7 @@ const About = () => {
 			<div className="custom-text mb-10">
 				<p className="mb-4">
 					Right now, I'm spearheading the development of{" "}
-					<span className="font-bold text-slate-50">micro frontend architecture</span> at{" "}
+					<span className="font-bold custom-gradient-text">micro frontend architecture</span> at{" "}
 					<a
 						className="font-bold text-slate-50 hover:text-buttonbg focus-visible:text-buttonbg"
 						href="https://www.lenskart.com"
@@ -28,16 +28,19 @@ const About = () => {
 						Lenskart.com
 					</a>
 					. I love creating software that's both{" "}
-					<span className="font-bold text-slate-50">pretty and smart</span> - hitting that sweet
-					spot where{" "}
-					<span className="font-bold text-slate-50">great design meets solid engineering.</span>It's
-					all about making things look good while ensuring they're built on rock-solid architecture.
+					<span className="font-bold custom-gradient-text">pretty and smart</span> - hitting that
+					sweet spot where{" "}
+					<span className="font-bold custom-gradient-text">
+						great design meets solid engineering.{" "}
+					</span>
+					It's all about making things look good while ensuring they're built on rock-solid
+					architecture.
 				</p>
 				<p className="mb-4">
 					I’m always tweaking those web vitals to make our{" "}
-					<span className="font-bold text-slate-50">apps super snappy</span>.When I'm not at work,
-					I'm geeking out over the latest frontend tech, especially anything that makes apps faster
-					and more stable.
+					<span className="font-bold custom-gradient-text">apps super snappy. </span>When I'm not at
+					work, I'm geeking out over the latest frontend tech, especially anything that makes apps
+					faster and more stable.
 				</p>
 				<p className="mb-4">
 					When I'm not on the computer, I'm gaming on my PS5, chilling with a book, or hanging with
