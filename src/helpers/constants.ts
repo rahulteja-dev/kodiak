@@ -6,8 +6,7 @@ const constants = {
 	NINE: "9",
 	PLUS: "+",
 	EXPERIENCE_DESCRIPTION: "Years of Wrangling with Frontend Code!!",
-	DESCRIPTION:
-		"I design pixel-perfect, seamlessly smooth user experiences using React, Next.js & other's. I love what I do!!",
+	DESCRIPTION: "I design pixel-perfect, seamlessly smooth user experiences using",
 	NAV_ITEMS: [
 		{
 			label: "About",

@@ -36,7 +36,11 @@ const Header = () => {
 				</h1>
 				<div className="px-5">
 					<h2 className="my-3 text-2xl text-slate-50">{constants.TITLE}</h2>
-					<h3 className="mt-3 custom-text">{constants.DESCRIPTION}</h3>
+					<h3 className="mt-3 custom-text">
+						{constants.DESCRIPTION}
+						<span className="font-bold custom-gradient-text"> React, Next.js & other's. </span> I
+						love what I do!!
+					</h3>
 					<nav className="hidden lg:block">
 						<ul className="mt-14 w-max">
 							{constants.NAV_ITEMS.map((item, _) => {
