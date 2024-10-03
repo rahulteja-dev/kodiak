@@ -31,11 +31,11 @@ const Header = () => {
 		<header className="text-foreground lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-20">
 			<div>
 				<h3 className="custom-text px-5 absolute font-heading">{constants.WELCOME_TEXT}</h3>
-				<h1 className="custom-gradient-text text-6xl font-extrabold leading-11 font-heading">
+				<h1 className="custom-gradient-text font-heading font-extrabold text-6xl leading-11 sm:max-lg:text-7xl sm:max-lg:leading-14">
 					<a href="/">{constants.NAME}</a>
 				</h1>
 				<div className="px-5">
-					<h2 className="my-3 text-2xl text-slate-50">{constants.TITLE}</h2>
+					<h2 className="my-3 text-slate-50 text-2xl sm:max-lg:text-3xl">{constants.TITLE}</h2>
 					<h3 className="mt-3 custom-text">
 						{constants.DESCRIPTION}
 						<span className="font-bold custom-gradient-text"> React, Next.js & other's. </span> I

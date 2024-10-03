@@ -1,8 +1,8 @@
 export default [
 	{
 		id: 1,
-		startDate: "2021-09",
-		endDate: "Present",
+		startDate: "2021/09",
+		endDate: "PRESENT",
 		title: "Team Lead - UI",
 		company: "Lenskart",
 		location: "Hyderabad, India",
@@ -24,8 +24,8 @@ export default [
 	},
 	{
 		id: 2,
-		startDate: "2021-01",
-		endDate: "2021-08",
+		startDate: "2021/02",
+		endDate: "2021/08",
 		title: "Senior Frontend Developer",
 		company: "Lenskart",
 		location: "Hyderabad, India",
@@ -46,8 +46,8 @@ export default [
 	},
 	{
 		id: 3,
-		startDate: "2020-01",
-		endDate: "2021-01",
+		startDate: "2020/01",
+		endDate: "2021/01",
 		title: "Senior UI Engineer",
 		company: "Darwinbox",
 		location: "Hyderabad, India",
@@ -68,8 +68,8 @@ export default [
 	},
 	{
 		id: 4,
-		startDate: "2017-06",
-		endDate: "2020-01",
+		startDate: "2017/07",
+		endDate: "2020/01",
 		title: "Software Engineer",
 		company: "Zenoti",
 		location: "Hyderabad, India",
@@ -90,8 +90,8 @@ export default [
 	},
 	{
 		id: 5,
-		startDate: "2015-06",
-		endDate: "2017-06",
+		startDate: "2015/06",
+		endDate: "2017/06",
 		title: "Software Engineer",
 		company: "Wadi",
 		location: "Gurugram, India",
@@ -103,8 +103,8 @@ export default [
 	},
 	{
 		id: 6,
-		startDate: "2014-05",
-		endDate: "2014-08",
+		startDate: "2014/05",
+		endDate: "2014/08",
 		title: "Software Intern",
 		company: "Google Summer of Code",
 		location: "Remote, India",

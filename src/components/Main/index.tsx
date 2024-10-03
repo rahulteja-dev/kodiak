@@ -1,6 +1,7 @@
 import constants from "@/helpers/constants";
 import experienceData from "@/helpers/experienceData";
 
+import RevealOnScroll from "../UI/reveal-on-scroll";
 import Section from "../UI/section";
 import ExperienceTimeline from "../UI/timeline";
 import About from "./about";
@@ -13,10 +14,14 @@ const Main = () => {
 				<About />
 			</Section>
 			<Section id="experience_me" title="Experience" ariaLabel="Work Experience">
-				<ExperienceTimeline items={experienceData} />
+				<RevealOnScroll>
+					<ExperienceTimeline items={experienceData} />
+				</RevealOnScroll>
 			</Section>
 			<Section id="contact_me" title={constants.PROJECT} ariaLabel="Contact Me">
-				<Contact />
+				<RevealOnScroll>
+					<Contact />
+				</RevealOnScroll>
 			</Section>
 		</main>
 	);

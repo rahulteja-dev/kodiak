@@ -24,7 +24,7 @@ const ExperienceItem = ({ item }: { item: ExperienceItemProps }) => {
 			<div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-1">
 				<h4 className="text-lg text-slate-50 ">{item.company}</h4>
 				<p className="flex custom-text">
-					<MapPin className="w-4 h-4 text-gray-400 mt-0.5" />
+					<MapPin className="w-4 h-4 text-gray-400 mt-0.5 sm:max-lg:mt-1" />
 					<span className="ml-1">{item.location}</span>
 				</p>
 			</div>
