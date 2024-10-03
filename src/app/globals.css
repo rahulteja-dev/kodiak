@@ -40,6 +40,6 @@
 	}
 
 	.custom-text {
-		@apply text-sm text-slate-400;
+		@apply text-sm sm:max-lg:text-base text-slate-400;
 	}
 }
