@@ -110,7 +110,7 @@ const About = () => {
 						</Transition>
 					</div>
 				</Card>
-				<Card className="col-span-1 row-span-1 group">
+				<Card className="col-span-1 row-span-1 group hidden md:block">
 					<div className="text-2xl custom-gradient-text">{constants.SNAG_SOLVER}</div>
 					<p className="custom-text text-md mt-4">{constants.SNAG_SOLVER_DESC}</p>
 				</Card>
