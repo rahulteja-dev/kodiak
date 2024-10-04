@@ -12,7 +12,7 @@ const Section = ({
 	return (
 		<section
 			id={id}
-			className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+			className="mb-16 scroll-mt-16 md:mb-24 lg:mb-30 lg:scroll-mt-30"
 			aria-label={ariaLabel}
 		>
 			<h2 className="mx-5 leading-normal uppercase tracking-widest text-slate-50 max-w-md text-lg mb-4 sm:max-lg:text-xl sm:max-lg:mb-6 lg:sr-only">
