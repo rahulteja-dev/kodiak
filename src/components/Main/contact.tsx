@@ -6,7 +6,9 @@ import Button from "../UI/button";
 const Contact = () => {
 	return (
 		<div className="mx-5">
-			{/* <div className="text-3xl leading-normal text-slate-50 max-w-md">{constants.PROJECT}</div> */}
+			<div className="text-3xl leading-normal text-slate-50 max-w-md hidden lg:block">
+				{constants.PROJECT}
+			</div>
 			<div className="custom-text leading-normal mt-2 max-w-md">
 				{constants.PROJECT_DESCRIPTION}
 			</div>

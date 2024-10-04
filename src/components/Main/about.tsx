@@ -47,7 +47,7 @@ const About = () => {
 					my crew.
 				</p>
 			</div>
-			<div className="grid grid-cols-2 md:grid-cols-3 gap-4 auto-rows-[minmax(200px,auto)]">
+			<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-4 auto-rows-[minmax(200px,auto)]">
 				<Card className="col-span-1 row-span-1 group" width="max-w-md">
 					<div>
 						<div className="text-2xl custom-gradient-text">{constants.EXPERIENCE}</div>
@@ -58,7 +58,7 @@ const About = () => {
 						<p className="custom-text mt-1">{constants.EXPERIENCE_DESCRIPTION}</p>
 					</div>
 				</Card>
-				<Card className="col-span-1 row-span-1 group md:hidden" width="max-w-md">
+				<Card className="col-span-1 row-span-1 group md:max-lg:hidden" width="max-w-md">
 					<div className="text-2xl custom-gradient-text">{constants.TEAM_PLAYER}</div>
 					<p className="custom-text text-md mt-4">{constants.TEAM_PLAYER_DESC}</p>
 				</Card>

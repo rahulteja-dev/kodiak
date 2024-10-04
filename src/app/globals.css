@@ -11,7 +11,7 @@
 		--buttonbg: #f57722;
 	}
 
-	* {
+	/* * {
 		box-sizing: border-box;
 		padding: 0;
 		margin: 0;
@@ -21,7 +21,7 @@
 	body {
 		max-width: 100vw;
 		overflow-x: hidden;
-	}
+	} */
 	/* 
 	body {
 		@apply bg-[url('/assets/grid.svg')] bg-no-repeat bg-cover bg-top bg-fixed;
@@ -40,6 +40,6 @@
 	}
 
 	.custom-text {
-		@apply text-sm sm:max-lg:text-base text-slate-400;
+		@apply text-sm sm:max-xl:text-base text-slate-400;
 	}
 }
