@@ -4,8 +4,10 @@ import Card from "@/UI/card";
 import CSSLogo from "../svg/csslogo";
 import HTMLLogo from "../svg/htmllogo";
 import JavaScriptLogo from "../svg/javascriptlogo";
+import NextLogo from "../svg/nextlogo";
 import ReactLogo from "../svg/reactlogo";
 import SCSSLogo from "../svg/scsslogo";
+import StyledLogo from "../svg/styledlogo";
 import TailwindCSSLogo from "../svg/tailwindlogo";
 import TypeScriptLogo from "../svg/tslogo";
 import Button from "../UI/button";
@@ -84,9 +86,9 @@ const About = () => {
 						<Transition duration={500} scale={100}>
 							<HTMLLogo width={50} height={50} />
 						</Transition>
-						<Transition duration={500} scale={100}>
+						{/* <Transition duration={500} scale={100}>
 							<CSSLogo width={50} height={50} />
-						</Transition>
+						</Transition> */}
 						<Transition duration={500} scale={125}>
 							<JavaScriptLogo width={50} height={50} />
 						</Transition>
@@ -97,16 +99,16 @@ const About = () => {
 							<ReactLogo width={50} height={50} />
 						</Transition>
 						<Transition duration={500} scale={125}>
+							<NextLogo width={50} height={50} />
+						</Transition>
+						<Transition duration={500} scale={125}>
+							<TailwindCSSLogo width={50} height={50} />
+						</Transition>
+						<Transition duration={500} scale={125}>
 							<SCSSLogo width={50} height={50} />
 						</Transition>
 						<Transition duration={500} scale={125}>
-							<TailwindCSSLogo width={50} height={50} />
-						</Transition>
-						<Transition duration={500} scale={125}>
-							<TailwindCSSLogo width={50} height={50} />
-						</Transition>
-						<Transition duration={500} scale={125}>
-							<TailwindCSSLogo width={50} height={50} />
+							<StyledLogo width={50} height={50} />
 						</Transition>
 					</div>
 				</Card>
