@@ -31,7 +31,10 @@ const ExperienceItem = ({ item }: { item: ExperienceItemProps }) => {
 
 			<div className="custom-text my-4 max-w-md leading-normal">
 				{item.description.map((desc, _idx) => (
-					<p className="mb-1">{desc}</p>
+					// eslint-disable-next-line react/no-array-index-key
+					<p className="mb-1" key={_idx}>
+						{desc}
+					</p>
 				))}
 			</div>
 			<div className="flex flex-wrap gap-2">
