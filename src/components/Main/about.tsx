@@ -50,7 +50,7 @@ const About = () => {
 			<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-4 auto-rows-[minmax(200px,auto)]">
 				<Card className="col-span-1 row-span-1 group" width="max-w-md">
 					<div>
-						<div className="text-2xl custom-gradient-text">{constants.EXPERIENCE}</div>
+						<div className="bento-title">{constants.EXPERIENCE}</div>
 						<div className="text-7xl custom-gradient-text">
 							{constants.NINE}
 							<span className="text-4xl">{constants.PLUS}</span>
@@ -59,12 +59,12 @@ const About = () => {
 					</div>
 				</Card>
 				<Card className="col-span-1 row-span-1 group md:max-lg:hidden" width="max-w-md">
-					<div className="text-2xl custom-gradient-text">{constants.TEAM_PLAYER}</div>
-					<p className="custom-text text-md mt-4">{constants.TEAM_PLAYER_DESC}</p>
+					<div className="bento-title">{constants.TEAM_PLAYER}</div>
+					<p className="bento-text">{constants.TEAM_PLAYER_DESC}</p>
 				</Card>
 
 				<Card className="col-span-2 row-span-1 group sm:col-span-2" width="max-w-md sm:max-w-full">
-					<div className="text-2xl custom-gradient-text">
+					<div className="bento-title">
 						{constants.CONTACT_ME} <span className="text-4xl">👋🏻</span>{" "}
 					</div>
 					<p className="mt-2 text-2xl text-slate-50">
@@ -75,11 +75,11 @@ const About = () => {
 					</a>
 				</Card>
 				<Card className="col-span-1 row-span-1 group md:hidden">
-					<div className="text-2xl custom-gradient-text">{constants.SNAG_SOLVER}</div>
-					<p className="custom-text text-md mt-4">{constants.SNAG_SOLVER_DESC}</p>
+					<div className="bento-title">{constants.SNAG_SOLVER}</div>
+					<p className="bento-text">{constants.SNAG_SOLVER_DESC}</p>
 				</Card>
 				<Card className="col-span-1 row-span-2 md:col-span-2 md:row-span-1 group" width="max-w-xl">
-					<div className="text-2xl custom-gradient-text">Skills</div>
+					<div className="bento-title">Skills</div>
 					<div className="mt-5 flex flex-wrap gap-8">
 						<Transition duration={500} scale={100}>
 							<HTMLLogo width={50} height={50} />
@@ -111,17 +111,17 @@ const About = () => {
 					</div>
 				</Card>
 				<Card className="col-span-1 row-span-1 group hidden md:block">
-					<div className="text-2xl custom-gradient-text">{constants.SNAG_SOLVER}</div>
-					<p className="custom-text text-md mt-4">{constants.SNAG_SOLVER_DESC}</p>
+					<div className="bento-title">{constants.SNAG_SOLVER}</div>
+					<p className="bento-text">{constants.SNAG_SOLVER_DESC}</p>
 				</Card>
 				<Card className="col-span-1 row-span-1 group" width="max-w-md">
-					<div className="text-2xl custom-gradient-text">{constants.SHARP_EYE}</div>
-					<p className="custom-text text-md mt-4">{constants.SHARP_EYE_DESC}.</p>
+					<div className="bento-title">{constants.SHARP_EYE}</div>
+					<p className="bento-text">{constants.SHARP_EYE_DESC}.</p>
 				</Card>
 
 				<Card className="col-span-2 row-span-1 group" width="max-w-md sm:max-w-full md:max-w-full">
-					<div className="text-2xl custom-gradient-text">{constants.TECHNICAL_LEADERSHIP}</div>
-					<p className="custom-text text-md mt-4">{constants.TECHNICAL_LEADERSHIP_DESCRIPTION}</p>
+					<div className="bento-title">{constants.TECHNICAL_LEADERSHIP}</div>
+					<p className="bento-text">{constants.TECHNICAL_LEADERSHIP_DESCRIPTION}</p>
 				</Card>
 			</div>
 		</div>
