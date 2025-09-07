@@ -15,9 +15,9 @@ export interface ExperienceItemProps {
 const ExperienceItem = ({ item }: { item: ExperienceItemProps }) => {
 	return (
 		<>
-			<div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-1">
-				<h3 className="font-bold custom-gradient-text text-2xl">{item.title}</h3>
-				<p className="custom-text">
+			<div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-1 gap-2">
+				<h3 className="font-bold custom-gradient-text text-xl sm:text-2xl">{item.title}</h3>
+				<p className="custom-text whitespace-nowrap text-sm">
 					{item.startDate} - {item.endDate}
 				</p>
 			</div>
@@ -29,7 +29,7 @@ const ExperienceItem = ({ item }: { item: ExperienceItemProps }) => {
 				</p>
 			</div>
 
-			<div className="custom-text my-4 max-w-md leading-normal">
+			<div className="custom-text my-4 max-w-full leading-normal">
 				{item.description.map((desc, _idx) => (
 					// eslint-disable-next-line react/no-array-index-key
 					<p className="mb-1" key={_idx}>

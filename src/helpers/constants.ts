@@ -1,11 +1,11 @@
 const constants = {
 	WELCOME_TEXT: "Hy! This is",
 	NAME: "Rahul Teja",
-	TITLE: "Senior Frontend Engineer",
+	TITLE: "Senior Full Stack Engineer",
 	EXPERIENCE: "Experience",
-	NINE: "9",
+	NINE: "12",
 	PLUS: "+",
-	EXPERIENCE_DESCRIPTION: "Years of Wrangling with Frontend Code!!",
+	EXPERIENCE_DESCRIPTION: "Years Building AI-Powered Enterprise Solutions",
 	DESCRIPTION: "I design pixel-perfect, seamlessly smooth user experiences using",
 	NAV_ITEMS: [
 		{
@@ -16,10 +16,6 @@ const constants = {
 			label: "Experience",
 			href: "experience_me",
 		},
-		{
-			label: "Get in touch",
-			href: "contact_me",
-		},
 	],
 	PROJECT: "Have a project in mind? Let's get to work.👋🏻📫",
 	PROJECT_DESCRIPTION: "You know about me, Let's talk about the project. ",
@@ -29,20 +25,29 @@ const constants = {
 	OR: "/",
 	TECHNICAL_LEADERSHIP: "Leadership",
 	TECHNICAL_LEADERSHIP_DESCRIPTION:
-		"Masterminded multiple frontend projects, delivering high-volume results on tight deadlines. Demonstrated exceptional ability to independently juggle tasks, consistently producing timely and precise outcomes across concurrent initiatives.",
+		"Led cross-functional teams in building AI-powered platforms and enterprise solutions. Architected scalable systems processing millions of users, integrated ML models for business intelligence, and delivered measurable ROI through strategic technical decisions.",
 	CONTACT_ME: "Got a project in mind??",
 	CONTACT_ME_DESCRIPTION: "let's link up and talk! ",
 	CONTACT_ME_BUTTON: "Get in touch",
-	SHARP_EYE: "Sharp-eyed",
+	SHARP_EYE: "AI Integration Expert",
 	SHARP_EYE_DESC:
-		"My keen eye for precision ensures flawless, user-friendly interfaces that boost engagement and satisfaction",
+		"Specialized in integrating AI/ML capabilities into production systems - from intelligent chatbots to predictive analytics, ensuring seamless user experiences",
 	SKILLS: "Skills",
-	TEAM_PLAYER: "Team Player",
+	TEAM_PLAYER: "Full Stack Architect",
 	TEAM_PLAYER_DESC:
-		"Worked closely with cross-functional teams to design, develop, and deploy web applications.",
-	SNAG_SOLVER: "Snag Solver",
+		"Expert in designing end-to-end solutions with React/Next.js frontends and Node.js backends. Python specifically for AI/ML integrations. Cloud infrastructure on AWS/GCP.",
+	SNAG_SOLVER: "Business Impact Driver",
 	SNAG_SOLVER_DESC:
-		"Expert in identifying complex UI/UX issues and optimizing functionality across multiple devices.",
+		"Transform complex business requirements into scalable technical solutions. Proven track record of increasing conversions by 21% and reducing operational costs through automation.",
+	AI_CAPABILITIES: "AI & ML Solutions",
+	AI_CAPABILITIES_DESC:
+		"Building intelligent systems with Python for LLMs, RAG architectures, and custom AI agents. Expertise in OpenAI, LangChain, and vector databases for production-grade AI applications.",
+	SCALABLE_ARCHITECTURE: "Scalable Architecture",
+	SCALABLE_ARCHITECTURE_DESC:
+		"Designed systems handling millions of users with microservices, event-driven architectures, and cloud-native solutions on AWS and GCP.",
+	BACKEND_EXPERTISE: "Backend Development",
+	BACKEND_EXPERTISE_DESC:
+		"Node.js, Express.js, NestJS - Building robust APIs, microservices, real-time systems, and scalable architectures. Python exclusively for AI/ML model integration.",
 };
 
 export default constants;

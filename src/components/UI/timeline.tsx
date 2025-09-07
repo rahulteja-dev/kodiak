@@ -20,7 +20,7 @@ export default function ExperienceTimeline({ items }: ExperienceTimelineProps) {
 							<Briefcase className="w-5 h-5 text-slate-50" />
 						</div>
 						<div className="ml-6 mr-6 sm:max-lg:ml-8 lg:ml-10">
-							<Card width="max-w-lg sm:max-lg:max-w-full">
+							<Card width="max-w-2xl sm:max-lg:max-w-full">
 								<ExperienceCard item={item} />
 							</Card>
 						</div>
