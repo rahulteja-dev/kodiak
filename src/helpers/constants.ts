@@ -16,6 +16,10 @@ const constants = {
 			label: "Experience",
 			href: "experience_me",
 		},
+		{
+			label: "Rapid Process",
+			href: "process",
+		},
 	],
 	PROJECT: "Have a project in mind? Let's get to work.👋🏻📫",
 	PROJECT_DESCRIPTION: "You know about me, Let's talk about the project. ",

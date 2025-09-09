@@ -1,5 +1,6 @@
 import experienceData from "@/helpers/experienceData";
 
+import Process from "../Process";
 import RevealOnScroll from "../UI/reveal-on-scroll";
 import Section from "../UI/section";
 import ExperienceTimeline from "../UI/timeline";
@@ -14,6 +15,11 @@ const Main = () => {
 			<Section id="experience_me" title="Experience" ariaLabel="Work Experience">
 				<RevealOnScroll>
 					<ExperienceTimeline items={experienceData} />
+				</RevealOnScroll>
+			</Section>
+			<Section id="process" title="Rapid Process" ariaLabel="How I Work">
+				<RevealOnScroll>
+					<Process />
 				</RevealOnScroll>
 			</Section>
 		</main>

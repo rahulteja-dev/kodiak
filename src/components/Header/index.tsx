@@ -9,22 +9,41 @@ const Header = () => {
 	const [activeSection, setActiveSection] = useState("");
 
 	useEffect(() => {
-		const observer = new IntersectionObserver(
-			(entries) => {
-				entries.forEach((entry) => {
-					if (entry.isIntersecting) {
-						setActiveSection(entry.target.id);
-					}
-				});
-			},
-			{ threshold: 0.3 },
-		);
+		const sections = document.querySelectorAll("section[id]");
 
-		document.querySelectorAll("section[id]").forEach((section) => {
-			observer.observe(section);
-		});
+		// Set initial active section
+		const getActiveSection = () => {
+			const scrollPosition = window.scrollY + window.innerHeight / 3;
 
-		return () => observer.disconnect();
+			for (let i = sections.length - 1; i >= 0; i--) {
+				const section = sections[i] as HTMLElement;
+				const sectionTop = section.offsetTop;
+				const sectionHeight = section.offsetHeight;
+
+				if (scrollPosition >= sectionTop) {
+					return section.id;
+				}
+			}
+
+			return sections[0]?.id || "";
+		};
+
+		const handleScroll = () => {
+			const newActiveSection = getActiveSection();
+			if (newActiveSection !== activeSection) {
+				setActiveSection(newActiveSection);
+			}
+		};
+
+		// Set initial active section
+		setActiveSection(getActiveSection());
+
+		// Add scroll listener
+		window.addEventListener("scroll", handleScroll);
+
+		return () => {
+			window.removeEventListener("scroll", handleScroll);
+		};
 	}, []);
 
 	return (
