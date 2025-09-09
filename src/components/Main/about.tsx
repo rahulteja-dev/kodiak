@@ -7,9 +7,7 @@ const About = () => {
 			<div className="custom-text mb-10">
 				<p className="mb-4">
 					I'm a Computer Science Engineer with 12+ years of experience in software development. As{" "}
-					<span className="font-bold custom-gradient-text">
-						As Team Lead and Frontend Architect
-					</span>{" "}
+					<span className="font-bold custom-gradient-text">Team Lead and Full Stack Architect</span>{" "}
 					at{" "}
 					<a
 						className="font-bold text-slate-50 hover:text-buttonbg focus-visible:text-buttonbg"
@@ -20,7 +18,7 @@ const About = () => {
 					>
 						Lenskart.com
 					</a>
-					, I spearhead the development of micro frontend architecture while building sophisticated{" "}
+					, I spearhead the development of scalable architecture while building sophisticated{" "}
 					<span className="font-bold custom-gradient-text">
 						{" "}
 						AI-powered applications and full-stack solutions

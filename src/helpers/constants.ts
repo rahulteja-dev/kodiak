@@ -39,7 +39,7 @@ const constants = {
 	SKILLS: "Skills",
 	TEAM_PLAYER: "Full Stack Architect",
 	TEAM_PLAYER_DESC:
-		"Expert in designing end-to-end solutions with React/Next.js frontends and Node.js backends. Python specifically for AI/ML integrations. Cloud infrastructure on AWS/GCP.",
+		"Expert in designing end-to-end solutions with React/Next.js and Node.js full-stack applications. Python specifically for AI/ML integrations. Cloud infrastructure on AWS/GCP.",
 	SNAG_SOLVER: "Business Impact Driver",
 	SNAG_SOLVER_DESC:
 		"Transform complex business requirements into scalable technical solutions. Proven track record of increasing conversions by 21% and reducing operational costs through automation.",

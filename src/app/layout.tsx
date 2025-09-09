@@ -9,7 +9,7 @@ import { TailwindIndicator } from "@/components/UI/tailwind-indicator";
 
 export const metadata: Metadata = {
 	title: "Rahul Teja A",
-	description: "Freelance Frontend Developer",
+	description: "Freelance Full Stack Developer",
 };
 
 export default function RootLayout({

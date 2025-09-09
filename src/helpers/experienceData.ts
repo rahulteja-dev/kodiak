@@ -7,7 +7,7 @@ export default [
 		company: "Lenskart",
 		location: "Hyderabad, India",
 		description: [
-			"Leading a 12-person engineering team in building AI-powered features and micro-frontend architecture serving 10M+ users. Architected and deployed intelligent recommendation systems using ML models, increasing user engagement by 35%. Spearheaded migration to Next.js with server-side rendering, achieving 40% performance improvement in Core Web Vitals.",
+			"Leading a 12-person engineering team in building AI-powered features and scalable full-stack architecture serving 10M+ users. Architected and deployed intelligent recommendation systems using ML models, increasing user engagement by 35%. Spearheaded migration to Next.js with server-side rendering, achieving 40% performance improvement in Core Web Vitals.",
 			"Integrated AI-driven personalization engines using Python for ML models and chatbot solutions. Built scalable backend services with Node.js/Express handling 100K+ concurrent users, implementing real-time data pipelines and event-driven architectures.",
 		],
 		technologies: [
